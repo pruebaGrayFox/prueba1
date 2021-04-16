@@ -4,7 +4,7 @@ env:
   USER_NAME: Bryan
   USER_EMAIL: Bryan.prueba@prueba.prueba
   # Directory within the Cloud Manager Git repository
-  PROJECT_DIR: project-a
+  PROJECT_DIR: prueba2
   # Cloud Manager's Git repository
  
 # Only run on a push to this branch
