@@ -6,9 +6,6 @@ env:
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
   # Cloud Manager's Git repository
-  MAIN_REPOSITORY: https://$pruebaGrayFox777:0Paladin7!@github.com/pruebaGrayFox777/prueba2.git
-  # The branch in Cloud Manager's Git repository to push to
-  MAIN_BRANCH : master
  
 # Only run on a push to this branch
 on:
@@ -39,7 +36,7 @@ jobs:
       # Checkout the main project
       - name: Checkout main project
         run:
-          git clone -b ${MAIN_BRANCH} https://${{ secrets.PAT }}@github.com/${MAIN_REPOSITORY}.git main 
+          git clone -b ${master} https://$pruebaGrayFox777:0Paladin7!@github.com/pruebaGrayFox777/prueba2.git main 
       # Move sub project
       - name: Move project to main project
         run: |
